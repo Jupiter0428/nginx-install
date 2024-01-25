@@ -13,4 +13,3 @@ ExecStop=/bin/sh -c "/bin/kill -s TERM $(/bin/cat /var/run/nginx.pid)"
 
 [Install]
 WantedBy=multi-user.target
-EOF
